@@ -1,4 +1,4 @@
-const net = require("net");
+const net = require("net");//build in library in node.
 
 //Establish a connection.
 const connect = function() {
@@ -17,7 +17,16 @@ const connect = function() {
 
         console.log("connected.....");
         conn.write("Name: Rab");
-        
+       // it was moved up so quick thats why it didnt show initial.
+        // setTimeout(() => {
+        //     conn.write("Move: up");
+
+        // }, 2000);
+        // setTimeout(() => {
+        //     conn.write("Move: left");
+
+        // }, 3000);
+
 
     });
     //to get from server, we use keyword data.
@@ -28,12 +37,13 @@ const connect = function() {
 
     });
 
+
     return conn;
 
 };
 // exporting....
 module.exports = {
-    net,
+
     connect,
 
 
