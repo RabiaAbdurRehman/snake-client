@@ -1,10 +1,11 @@
 const net = require("net");//build in library in node.
+const { IP, PORT } = require("./constants");
 
 //Establish a connection.
 const connect = function() {
     const conn = net.createConnection({
-        host: "localhost",
-        port: 50541
+        host: IP,
+        port: PORT
     });
 
     //Interpret the incoming data as a text.
@@ -17,6 +18,7 @@ const connect = function() {
 
         console.log("connected.....");
         conn.write("Name: Rab");
+
        // it was moved up so quick thats why it didnt show initial.
         // setTimeout(() => {
         //     conn.write("Move: up");
