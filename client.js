@@ -11,9 +11,20 @@ const connect = function() {
     conn.setEncoding("utf8");
 
     //events:
-    conn.on("data", (data) => {
+    //keyword connect for user.
+    conn.on("connect", (connects) => {
 
-        console.log(data);
+
+        console.log("connected.....");
+        conn.write("Name: Rab");
+        
+
+    });
+    //to get from server, we use keyword data.
+    conn.on("data", (dataFromServer) => {
+
+
+        console.log(dataFromServer);
 
     });
 
