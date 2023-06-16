@@ -13,6 +13,6 @@ Before you can run this client, you will need to be running the server side whic
 !["screenshot description"](#C:\Users\rabia\OneDrive\Desktop\PicturesForSnakeProject\constant.js screenshot.png)
 !["screenshot description"](#C:\Users\rabia\OneDrive\Desktop\PicturesForSnakeProject\input.js screenshot.png)
 !["screenshot description"](#C:\Users\rabia\OneDrive\Desktop\PicturesForSnakeProject\play.js screenshot.png)
-<!-- <picture>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="![snake gif](https://github.com/<RabiaAbdurRehman>/<RabiaAbdurRehman>/blob/output/github-contribution-grid-snake.gif)">
-</picture> -->
+</picture>
